@@ -19,3 +19,11 @@ for (let i = 0; i < tab.length; i++) {
     tab[i].addEventListener(`click`, onTabClick, false);
 }
 
+
+    document.getElementById(`whiteRatio1`).value = inputVal;
+    document.getElementById(`whiteRatio2`).value = inputVal * 2;
+    document.getElementById(`caliRatio1`).value = inputVal * 5;
+    document.getElementById(`caliRatio2`).value = inputVal * 8;
+    document.getElementById(`caliSoftRatio1`).value = inputVal;
+    document.getElementById(`caliSoftRatio2`).value = inputVal * 2;
+}
