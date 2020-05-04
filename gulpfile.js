@@ -21,7 +21,7 @@ let dev = () => {
             ]
         }
     });
-    watch(`html/**/*.html`).on(`change`, reload);
+    watch([`html/**/*.html`, `css/*.css`, `js/*.js`]).on(`change`, reload);
 };
 
 exports.build = series(copyCSS, copyJS);
