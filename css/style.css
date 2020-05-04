@@ -1,1 +1,36 @@
+body {
+  background-color: #ffcc99;
+  color:inherit;
+}
 
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 2px 40px 2px;
+  height: 40px;
+  box-shadow: 0 0 5px 5px black;
+}
+
+.tabs>* {
+  width: 100%;
+  color: black;
+  background-color: inherit;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs>.active {
+  color: black;
+  background-color: white;
+}
+
+.recipe {
+  display: none;
+  font-size: 38px;
+}
+
+.recipe.active {
+  display: block;
+}
